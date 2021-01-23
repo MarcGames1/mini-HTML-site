@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth
+}
+body {
+  background-color: #faebd7;
+  font-family: 'Lato', sans-serif;
+}
+nav {
+  display: inline-block;
+  width: 15%;
+  position: relative;
+  vertical-align: top;
+  padding: 1rem;
+}
+
+.nav{
+    width: 15%;
+}
+
+nav a ,.nav{
+  display: block;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.068);
+  color: black;
+  font-size: large;
+  line-height: 3rem;
+}
+
+/* mouse over link */
+nav a:hover {
+  background-color: wheat;
+}
+
+/* selected link */
+nav a:active {
+  background-color: rgba(224, 167, 62, 0.302);
+}
+
+.content {
+  display: inline-block;
+  width: 75%;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+#hero-img {
+  float: left;
+  padding: 1rem;
+}
+
+
+/* table formatting */
+table {
+    background-color:#E3CEB8;
+    position: relative;
+    align-self: center;
+    position: 50%;
+    
+}
+
+.odd{
+    background-color: #FFE5CF;
+}
+
+thead{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* table formatting */
