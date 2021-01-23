@@ -7,12 +7,15 @@ body {
   background-color: #faebd7;
   font-family: 'Lato', sans-serif;
 }
+
+/*NAVIGATION*/
 nav , #nav{
   display: inline-block;
   width: 15%;
   position: relative;
   vertical-align: top;
   padding: 1rem;
+  text-align: center;
 }
 
 
@@ -24,6 +27,8 @@ nav a ,#nav{
   font-size: large;
   line-height: 3rem;
 }
+/*NAVIGATION*/
+
 
 /* mouse over link */
 nav a:hover, #nav:hover {
@@ -35,6 +40,8 @@ nav a:active, #nav:active {
   background-color: rgba(224, 167, 62, 0.302);
 }
 
+/*cum fac daca vreau ca un link (a) din nav sa ramana colorat diferit in functie de pagina in care ma aflu este posibil doar din CSS sau e nevoie de JS?*/
+
 section {
   display: inline-block;
   padding: 2em;
@@ -44,27 +51,35 @@ section {
 
 h1,h2{
   text-align: center;
+  font-size: 2em;
+}
+
+.text{
+  max-width: 75%;
+  display: inline;
+  position: relative;
+  
 }
 
 #pupin {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 320px;
   padding: 2rem;
+  float: right;
 }
 
-#pupin-1916{
-  max-width: 20%;
+#pupin-1916, #university{
   padding: 1rem;
   display: inline-block;
+  position:relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.text{
-  max-width: 75%;
-  display: inline-block;
-  position: relative;
-  
-}
+
+
+
 
 
 /* table formatting */
@@ -73,10 +88,11 @@ table {
     position: relative;
     align-self: center;
     position: 50%;
+    border-collapse: collapse;
     
 }
-th,td {
-  border: solid 1px #e6e6e6;
+tr, td, th {
+  border: solid 5px #e6e6e6;
 }
 
 .odd{
