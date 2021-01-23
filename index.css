@@ -11,7 +11,7 @@ body {
 /*NAVIGATION*/
 nav , #nav{
   display: inline-block;
-  width: 15%;
+  width: 10%;
   position: relative;
   vertical-align: top;
   padding: 1rem;
@@ -54,6 +54,10 @@ h1,h2{
   font-size: 2em;
 }
 
+p{
+  text-indent: 3em;
+}
+
 .text{
   max-width: 75%;
   display: inline;
@@ -84,7 +88,7 @@ h1,h2{
 
 /* table formatting */
 table {
-    background-color:#E3CEB8;
+    background-color:rgba(0, 0, 0, 0.2);
     position: relative;
     align-self: center;
     position: 50%;
@@ -93,6 +97,7 @@ table {
 }
 tr, td, th {
   border: solid 5px #e6e6e6;
+  padding: 1em;
 }
 
 .odd{
